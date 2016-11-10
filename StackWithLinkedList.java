@@ -10,4 +10,7 @@ class StackWithLlinkedList{
   public void push(E item){
     list.addFirst(item);
   }
+  public boolean isEmpty(){
+    return list.isEmpty();
+  }
 }
